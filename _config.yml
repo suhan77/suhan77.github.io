@@ -3,7 +3,7 @@ description: My Personal Blog
 author: Suhan
 logo: /hcz-jekyll-blog/static/img/avatar.png
 github: https://github.com/suhan77
-about: Data Scientist
+about: Freelance developer
 
 baseurl: "https://suhan77.github.io/"
 url: "https://suhan77.github.io/"
@@ -26,3 +26,7 @@ per_page: 20
 paginate_path: "/page:num/"
 markdown: kramdown
 gems: [jekyll-paginate, jekyll-gist]
+
+collections : 
+  java:
+    foo: bar
