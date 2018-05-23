@@ -1,9 +1,19 @@
 [
   {
-    "text": "Home",
+    "text": "python(Data Science)",
     "url": "/",
     "icon": "fa-home",
     "layout": "post"
+  },
+  {
+    "text": "R",
+    "url": "/r/",
+    "icon": "fa-comments"
+  },
+  {
+    "text": "Java",
+    "url": "/java/",
+    "icon": "fa-comments"
   },
   {
     "text": "About",
