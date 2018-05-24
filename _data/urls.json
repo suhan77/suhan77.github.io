@@ -6,6 +6,12 @@
     "layout": "post"
   },
   {
+    "text": "java",
+    "url": "/java",
+    "icon": "fa-home",
+    "layout": "post"
+  },
+  {
     "text": "About",
     "url": "/about/",
     "icon": "fa-comments"
