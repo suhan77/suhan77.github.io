@@ -1,20 +1,8 @@
 [
   {
-    "text": "python DS",
+    "text": "Home",
     "url": "/",
     "icon": "fa-home",
-    "layout": "post"
-  },
-  {
-    "text": "R",
-    "url": "/r",
-    "icon": "fa-comments",
-    "layout": "r"
-  },
-  {
-    "text": "java",
-    "url": "/java",
-    "icon": "fa-comments",
     "layout": "post"
   },
   {
@@ -34,7 +22,7 @@
   },
   {
     "text": "Github",
-    "url": "https://github.com/suhan77",
+    "url": "/#",
     "icon": "fa-github"
   },
   {

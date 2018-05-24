@@ -4,7 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This blog is for note Data science
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-이 블로그는 데이터 사이언스를 위한 노트입니다.
-잘못된 것이 있으면 댓글을 달아주세요.
+You can find the source code for this Jekyll theme at: [github.com/ashutosh2k12/hcz-jekyll-blog](https://github.com/ashutosh2k12/hcz-jekyll-blog)
+
+You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
