@@ -1,7 +1,13 @@
 [
   {
-    "text": "Home",
+    "text": "python",
     "url": "/",
+    "icon": "fa-home",
+    "layout": "post"
+  },
+  {
+    "text": "r",
+    "url": "/r",
     "icon": "fa-home",
     "layout": "post"
   },
