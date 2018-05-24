@@ -1,12 +1,12 @@
-title: John Smith
+title: Suhan
 description: My Personal Blog
-author: John Smith
+author: Suhan Jeon
 logo: /hcz-jekyll-blog/static/img/avatar.png
-github: https://github.com/codeasashu
-about: Freelance developer
+github: https://github.com/suhan77
+about: Data scientist
 
-baseurl: "https://codeasashu.github.io/hcz-jekyll-blog"
-url: "https://codeasashu.github.io/hcz-jekyll-blog"
+baseurl: "https://suhan77.github.io/"
+url: "https://suhan77.github.io/"
 
 allowsearch: true
 
