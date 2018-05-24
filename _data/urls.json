@@ -8,12 +8,14 @@
   {
     "text": "R",
     "url": "/r",
-    "icon": "fa-comments"
+    "icon": "fa-comments",
+    "layout": "r"
   },
   {
     "text": "java",
     "url": "/java/",
-    "icon": "fa-comments"
+    "icon": "fa-comments",
+    "layout": "post"
   },
   {
     "text": "About",
