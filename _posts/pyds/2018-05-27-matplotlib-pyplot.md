@@ -4,7 +4,7 @@ title: Matplotlib
 categories : pyds 
 ---
 
-#1. 설치
+# 1. 설치
 **설치**
 `$pip install matplotlib`
 **import**
@@ -14,7 +14,7 @@ categories : pyds
 `%matplotlib inline` 
 
 
-#2. 색깔, 마커, 선스타일
+# 2. 색깔, 마커, 선스타일
 ### 1) 색깔
 
 | 문자열 | 약자 |
@@ -26,6 +26,7 @@ categories : pyds
 |    `black`    | k       |
 
 ### 2) 마커
+
 |마커 문자열    |  의미       |
 |--------|--------|
 |    `.`    | pint       |
@@ -37,6 +38,7 @@ categories : pyds
 |D	|diamond marker|
 
 ### 3) 선스타일
+
 | 선 스타일 문자열 | 의미 |
 |--------|--------|
 |   ` -`    | 	solid line       |
@@ -44,7 +46,7 @@ categories : pyds
 |   ` -.`    | dash-dot        |
 |   ` : `   | dotted        |
 
-#3. plot
+# 3. plot
 
 ```
 plt.plot(x, y, fmt, data)
@@ -69,7 +71,7 @@ plt.subplot(221) #여러개의 그래프를 그릴때
 ```
 위의 subplot은 2x2개의 그림중 1번째 그림이라는 뜻
 
-#4. bar
+# 4. bar
 ```
 plt.bar(x, y, xerr, alpha) # 막대그래프
 plt.barh() # 가로로된 막대그래프
@@ -78,11 +80,11 @@ plt.barh() # 가로로된 막대그래프
 xerr : [ ]형식, 에러 바
 alpha : 투명도 0~1 사이값
 
-#5. stem
+# 5. stem
 `plt.stem(x, y, fmt)`
 
 
-#6. pie
+# 6. pie
 
 ```
 labels = '개구리', '돼지', '개', '통나무'
@@ -95,24 +97,24 @@ plt.axis('equal')
 plt.show()
 ```
 
-#7. histogram
+# 7. histogram
 `arrays, bins, patches = plt.hist(x, bins=10)`
 
-#8. scatter
+# 8. scatter
 `plt.scatter(x, y, c, s)`
 
 s는 점의 크기
 
 c는 점의 색깔
 
-#9. 컨투어 플롯
+# 9. 컨투어 플롯
 
 ```
 plt.contourf(XX, YY, ZZ, alpha=.75, cmap='jet') # 샐깔표시
 plt.contour(XX, YY, ZZ, colors='black', linewidth=.5) #색깔없음
 ```
 
-#10. 삼차원 서피스 플롯
+# 10. 삼차원 서피스 플롯
 
 ```
 from mpl_toolkits.mplot3d import Axes3D
