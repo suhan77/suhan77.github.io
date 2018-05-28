@@ -95,3 +95,10 @@ t : t 통계량
 P>|t| : p
 
 [0.025  0.975] : 2.5% ~ 97.5% 사이 값
+
+# 7. 교차검증
+```
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=42)
+```
+`train_test_split` 을 이용해어 train과 test 로 나눌 수 있다.
