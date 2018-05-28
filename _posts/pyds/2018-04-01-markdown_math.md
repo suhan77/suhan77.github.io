@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Numpy
+title: Markdown(math)
 categories : pyds 
 ---
 
