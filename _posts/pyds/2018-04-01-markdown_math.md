@@ -1,3 +1,9 @@
+---
+layout: post
+title: Numpy
+categories : pyds 
+---
+
 # 1. Mark down (Math)
 
 $$$J_a $$$
