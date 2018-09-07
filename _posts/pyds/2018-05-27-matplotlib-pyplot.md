@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Matplotlib
-categories : pyds 
+categories : pyds
 ---
 
 # 1. 설치
@@ -11,7 +11,7 @@ categories : pyds
 `import matplotlib.pyplot as plt`
 
 **jupyter notebook에서는 과 함께 사용**
-`%matplotlib inline` 
+`%matplotlib inline`
 
 
 # 2. 색깔, 마커, 선스타일
@@ -49,7 +49,7 @@ categories : pyds
 # 3. plot
 
 ```
-plt.plot(x, y, fmt, data)
+plt.plot(x, y, fmt, data, label)
 plt.xlim(0, 50) #그림의 범위
 plt.ylim(0, 100)
 plt.xtics([1, 2, 3, 4, 5]) #축위에 숫자or문자 표시
@@ -122,4 +122,33 @@ fig = plt.figure()
 ax = Axes3D(fig)
 ax.plot_surface(XX, YY, ZZ, rstride=1, cstride=1, cmap='hot')
 plt.show()
+```
+
+# 11. 한글 지원하기
+
+현재 사용 할 수 있는 폰트 종류 확인
+
+```
+import matplotlib
+import matplotlib.font_manager
+
+[(f.name, f.fname) for f in matplotlib.font_manager.fontManager.ttflist if 'Nanum' in f.name]
+```
+
+
+폰트 변환
+
+```
+from matplotlib import font_manager, rc
+
+font_fname = 'c:\\windows\\fonts\\nanumbarungothicultralight_0.ttf'
+font_name = font_manager.FontProperties(fname=font_fname).get_name()
+
+plt.rcParams['font.size'] = 12.
+plt.rcParams['xtick.labelsize'] = 10.
+plt.rcParams['ytick.labelsize'] = 10.
+plt.rcParams['axes.labelsize'] = 20.
+
+rc('font', family=font_name)
+print(font_name)
 ```
